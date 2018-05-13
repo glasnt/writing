@@ -1,0 +1,50 @@
+- publisher: 
+    name: self published
+    
+    articles: 
+      - name: On unapologetic enthusiasm
+        link: https://glasnt.com/blog/2018/02/08/on-unapologetic-enthusiasm.html
+      - name: On Collecting No's
+        link: http://glasnt.com/blog/2017/04/11/on-collecting-nos.html
+      - name: Hacking the LCA Lanyard
+        link: https://glasnt.com/blog/2016/02/07/hacking-the-lca-lanyard.html
+    
+   
+
+- publisher:
+    name: The Recompiler
+    link: https://recompilermag.com/
+    articles: 
+      - name: Why I love Legacy DevOps
+        link: https://recompilermag.com/issues/issue-4/why-i-love-legacy-devops/
+
+- publisher: 
+    name: Model View Culture
+    link: https://modelviewculture.com/
+    articles: 
+      - name: Acknowledging Non-Coding Contributions 
+        link: https://modelviewculture.com/pieces/acknowledging-non-coding-contributions
+        date: 1-Feb-2016
+
+- publisher:
+    name: OpenSource.com
+    link: https://opensource.com/
+    articles: 
+      - name: An introduction to the Django ORM
+        link: https://opensource.com/article/17/11/django-orm
+        date: 01-NOV-2017
+
+      - name: Cross-platform development with Python and BeeWare
+        link: https://opensource.com/article/17/4/cross-platform-development-python-and-beeware
+        date: 01-APR-2017
+
+      - name: Solving the cross-platform emoji problem 
+        link: https://opensource.com/article/17/4/cross-platform-emoji
+        
+
+      - name: A tool for tracking non-code GitHub contributions
+        link: https://opensource.com/life/15/10/octohat-github-non-code-contribution-tracker
+
+      - name: "... more articles"
+        link: https://opensource.com/users/glasnt
+
