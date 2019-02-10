@@ -2,6 +2,8 @@
     name: self published
     
     articles: 
+      - name: On the 'other' developers
+        link: https://glasnt.com/blog/2018/04/06/on-the-other-developers.html
       - name: On unapologetic enthusiasm
         link: https://glasnt.com/blog/2018/02/08/on-unapologetic-enthusiasm.html
       - name: On Collecting No's
@@ -9,7 +11,19 @@
       - name: Hacking the LCA Lanyard
         link: https://glasnt.com/blog/2016/02/07/hacking-the-lca-lanyard.html
     
-   
+- publisher: 
+    name: Increment Magazine
+    link: https://increment.com/
+    articles: 
+      - name: The wonderful world of emoji ✨
+        link: https://increment.com/internationalization/the-wonderful-world-of-emoji/   
+
+- publisher:
+    name: Nexmo Developer Spotlight
+    link: https://www.nexmo.com/blog/category/developer/developer-spotlight/
+    articles: 
+     - name: Solving Kelly’s Dilemma – How to Send SMS from a Spreadsheet
+       link: https://www.nexmo.com/blog/2019/01/23/how-to-send-sms-from-a-spreadsheet-dr/
 
 - publisher:
     name: The Recompiler
