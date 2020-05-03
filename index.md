@@ -1,6 +1,7 @@
 ---
 layout: page 
 header-img: ../img/header_image.jpg
+description: in which glasnt types the words
 ---
 
 <style>
