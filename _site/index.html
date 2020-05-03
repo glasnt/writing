@@ -1,223 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="css/skeleton.css" />
-  <link rel="stylesheet" href="css/digital_style.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="og:description" content="">
+
+    <title>writing</title>
+
+    <link rel="canonical" href="http://localhost:4000/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,900|Bitter" rel="stylesheet">
+
+    <!-- pride.codes -->
+    <link rel="stylesheet" href="https://cdn.pride.codes/css/bar_body.css">
+
+
+    <!-- font awesome 5 custom kit -->
+    <script src="https://kit.fontawesome.com/ac11132d60.js" crossorigin="anonymous"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- social media cards -->
+    <meta name="twitter:site" content="@glasnt" />
+    <meta name="twitter:title" content="" />
+    <meta name="og:title" content="" />
+    <meta name="twitter:description" content="{% for c in site.data.articles %} 
+{% if c.publisher.link %}
+## [{{c.publisher.name}}]({{c.publis..." />
+    <meta name="og:url" content="http://localhost:4000/" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="http://glasnt.com/blog/img/header-thumbnail.png" />
+    <meta name="og:image" content="http://glasnt.com/blog/img/header-thumbnail.png" />
+    
+    
+
 </head>
+
+
 <body>
-  <div class="section intro-header" style="background-image: url('img/header_image.jpg')">
-    <div class="container">
-      <h1 class="section-heading">Writing by Katie McLaughlin</h1>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="/assets/ico/favicon.png" width="47px"></img></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/now">Now</a></li>
+                <li><a href="/talks">Talks</a></li>
+                <li><a href="/blog/archive">Archive</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
     </div>
-  </div>
-    <div class="section">
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Page Header -->
+<header class="intro-header" style="background-image: url('/assets/../img/header_image.jpg')">
     <div class="container">
-        <h2>Articles</h2>
-         
-          <div class="row">&nbsp;</div>
-          <div class="row">
-            <div class="eight columns">
-                
-                    self published
-                
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="site-heading">
+                    <h1>writing</h1>
+                    <hr class="small">
+                    <span class="subheading"></span>
+                </div>
             </div>
-          </div>
-           
-          <div class="row">
-            <div class="two columns">&nbsp;</div>
-            <div class="six columns">
-                <a href="https://glasnt.com/blog/2018/04/06/on-the-other-developers.html">On the 'other' developers</a>
-            </div>
-          </div>
-         
-          <div class="row">
-            <div class="two columns">&nbsp;</div>
-            <div class="six columns">
-                <a href="https://glasnt.com/blog/2018/02/08/on-unapologetic-enthusiasm.html">On unapologetic enthusiasm</a>
-            </div>
-          </div>
-         
-          <div class="row">
-            <div class="two columns">&nbsp;</div>
-            <div class="six columns">
-                <a href="http://glasnt.com/blog/2017/04/11/on-collecting-nos.html">On Collecting No's</a>
-            </div>
-          </div>
-         
-          <div class="row">
-            <div class="two columns">&nbsp;</div>
-            <div class="six columns">
-                <a href="https://glasnt.com/blog/2016/02/07/hacking-the-lca-lanyard.html">Hacking the LCA Lanyard</a>
-            </div>
-          </div>
-        
-         
-          <div class="row">&nbsp;</div>
-          <div class="row">
-            <div class="eight columns">
-                
-                <a href="https://increment.com/">Increment Magazine</a>
-                
-            </div>
-          </div>
-           
-          <div class="row">
-            <div class="two columns">&nbsp;</div>
-            <div class="six columns">
-                <a href="https://increment.com/internationalization/the-wonderful-world-of-emoji/">The wonderful world of emoji ✨</a>
-            </div>
-          </div>
-        
-         
-          <div class="row">&nbsp;</div>
-          <div class="row">
-            <div class="eight columns">
-                
-                <a href="https://www.nexmo.com/blog/category/developer/developer-spotlight/">Nexmo Developer Spotlight</a>
-                
-            </div>
-          </div>
-           
-          <div class="row">
-            <div class="two columns">&nbsp;</div>
-            <div class="six columns">
-                <a href="https://www.nexmo.com/blog/2019/01/23/how-to-send-sms-from-a-spreadsheet-dr/">Solving Kelly’s Dilemma – How to Send SMS from a Spreadsheet</a>
-            </div>
-          </div>
-        
-         
-          <div class="row">&nbsp;</div>
-          <div class="row">
-            <div class="eight columns">
-                
-                <a href="https://recompilermag.com/">The Recompiler</a>
-                
-            </div>
-          </div>
-           
-          <div class="row">
-            <div class="two columns">&nbsp;</div>
-            <div class="six columns">
-                <a href="https://recompilermag.com/issues/issue-4/why-i-love-legacy-devops/">Why I love Legacy DevOps</a>
-            </div>
-          </div>
-        
-         
-          <div class="row">&nbsp;</div>
-          <div class="row">
-            <div class="eight columns">
-                
-                <a href="https://modelviewculture.com/">Model View Culture</a>
-                
-            </div>
-          </div>
-           
-          <div class="row">
-            <div class="two columns">&nbsp;</div>
-            <div class="six columns">
-                <a href="https://modelviewculture.com/pieces/acknowledging-non-coding-contributions">Acknowledging Non-Coding Contributions</a>
-            </div>
-          </div>
-        
-         
-          <div class="row">&nbsp;</div>
-          <div class="row">
-            <div class="eight columns">
-                
-                <a href="https://dev.to/">dev.to</a>
-                
-            </div>
-          </div>
-           
-          <div class="row">
-            <div class="two columns">&nbsp;</div>
-            <div class="six columns">
-                <a href="https://dev.to/googlecloud/help-i-forgot-to-click-allow-unauthenticated-invocations-on-google-cloud-run-2hoj">Help! I forgot to click "Allow unauthenticated invocations" on Google Cloud Run! 😱</a>
-            </div>
-          </div>
-         
-          <div class="row">
-            <div class="two columns">&nbsp;</div>
-            <div class="six columns">
-                <a href="https://dev.to/glasnt">... more articles</a>
-            </div>
-          </div>
-        
-         
-          <div class="row">&nbsp;</div>
-          <div class="row">
-            <div class="eight columns">
-                
-                <a href="https://opensource.com/">OpenSource.com</a>
-                
-            </div>
-          </div>
-           
-          <div class="row">
-            <div class="two columns">&nbsp;</div>
-            <div class="six columns">
-                <a href="https://opensource.com/article/17/11/django-orm">An introduction to the Django ORM</a>
-            </div>
-          </div>
-         
-          <div class="row">
-            <div class="two columns">&nbsp;</div>
-            <div class="six columns">
-                <a href="https://opensource.com/article/17/4/cross-platform-development-python-and-beeware">Cross-platform development with Python and BeeWare</a>
-            </div>
-          </div>
-         
-          <div class="row">
-            <div class="two columns">&nbsp;</div>
-            <div class="six columns">
-                <a href="https://opensource.com/article/17/4/cross-platform-emoji">Solving the cross-platform emoji problem</a>
-            </div>
-          </div>
-         
-          <div class="row">
-            <div class="two columns">&nbsp;</div>
-            <div class="six columns">
-                <a href="https://opensource.com/life/15/10/octohat-github-non-code-contribution-tracker">A tool for tracking non-code GitHub contributions</a>
-            </div>
-          </div>
-         
-          <div class="row">
-            <div class="two columns">&nbsp;</div>
-            <div class="six columns">
-                <a href="https://opensource.com/users/glasnt">... more articles</a>
-            </div>
-          </div>
-        
-        
-        <div class="row">&nbsp;</div>
-        <h2>Technical Reviewer</h2>
-         
-          <div class="row">
-            <div class="twelvecolumns">
-                <a href="fossforge.com">Forge Your Future with Open Source</a>, VM (Vicky) Brasseur, The Pragmatic Bookshelf
-            </div>
-          </div>
-         
-          <div class="row">
-            <div class="twelvecolumns">
-                <a href="https://hellowebbooks.com/learn-command-line/">Really Friendly Command Line Intro</a>, Tracy Osborn
-            </div>
-          </div>
-         
-          <div class="row">
-            <div class="twelvecolumns">
-                <a href="https://www.packtpub.com/application-development/oracle-application-express-32-essentials-and-more">Oracle Application Express 3.2 - The Essentials and More</a>, Arie Geller, Matthew Lyon, Packt Publishing
-            </div>
-          </div>
-        
-        <div class="row">&nbsp;</div>
-        <div class="row">&nbsp;</div>
-        <p>More writing available on <a href="https://glasnt.com/blog">musings</a>. 
-        <a href="https://unsplash.com/photos/vZJdYl5JVXY">Header image</a> via <a href="https://unsplash.com/">unsplash</a>
+        </div>
     </div>
-  </div>
- 
-<title>glasnt</title>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-10  col-md-10 col-md-offset-1">
+			
+<h2 id="self-published">self published</h2>
+
+<ul>
+  <li>
+    <p><a href="https://glasnt.com/blog/2018/04/06/on-the-other-developers.html">On the ‘other’ developers</a></p>
+  </li>
+  <li>
+    <p><a href="https://glasnt.com/blog/2018/02/08/on-unapologetic-enthusiasm.html">On unapologetic enthusiasm</a></p>
+  </li>
+  <li>
+    <p><a href="http://glasnt.com/blog/2017/04/11/on-collecting-nos.html">On Collecting No’s</a></p>
+  </li>
+  <li>
+    <p><a href="https://glasnt.com/blog/2016/02/07/hacking-the-lca-lanyard.html">Hacking the LCA Lanyard</a></p>
+  </li>
+</ul>
+
+<h2 id="increment-magazine"><a href="https://increment.com/">Increment Magazine</a></h2>
+
+<ul>
+  <li><a href="https://increment.com/internationalization/the-wonderful-world-of-emoji/">The wonderful world of emoji ✨</a></li>
+</ul>
+
+<h2 id="nexmo-developer-spotlight"><a href="https://www.nexmo.com/blog/category/developer/developer-spotlight/">Nexmo Developer Spotlight</a></h2>
+
+<ul>
+  <li><a href="https://www.nexmo.com/blog/2019/01/23/how-to-send-sms-from-a-spreadsheet-dr/">Solving Kelly’s Dilemma – How to Send SMS from a Spreadsheet</a></li>
+</ul>
+
+<h2 id="the-recompiler"><a href="https://recompilermag.com/">The Recompiler</a></h2>
+
+<ul>
+  <li><a href="https://recompilermag.com/issues/issue-4/why-i-love-legacy-devops/">Why I love Legacy DevOps</a></li>
+</ul>
+
+<h2 id="model-view-culture"><a href="https://modelviewculture.com/">Model View Culture</a></h2>
+
+<ul>
+  <li><a href="https://modelviewculture.com/pieces/acknowledging-non-coding-contributions">Acknowledging Non-Coding Contributions</a></li>
+</ul>
+
+<h2 id="devto"><a href="https://dev.to/">dev.to</a></h2>
+
+<ul>
+  <li>
+    <p><a href="https://dev.to/googlecloud/help-i-forgot-to-click-allow-unauthenticated-invocations-on-google-cloud-run-2hoj">Help! I forgot to click “Allow unauthenticated invocations” on Google Cloud Run! 😱</a></p>
+  </li>
+  <li>
+    <p><a href="https://dev.to/glasnt">… more articles</a></p>
+  </li>
+</ul>
+
+<h2 id="opensourcecom"><a href="https://opensource.com/">OpenSource.com</a></h2>
+
+<ul>
+  <li>
+    <p><a href="https://opensource.com/article/17/11/django-orm">An introduction to the Django ORM</a></p>
+  </li>
+  <li>
+    <p><a href="https://opensource.com/article/17/4/cross-platform-development-python-and-beeware">Cross-platform development with Python and BeeWare</a></p>
+  </li>
+  <li>
+    <p><a href="https://opensource.com/article/17/4/cross-platform-emoji">Solving the cross-platform emoji problem</a></p>
+  </li>
+  <li>
+    <p><a href="https://opensource.com/life/15/10/octohat-github-non-code-contribution-tracker">A tool for tracking non-code GitHub contributions</a></p>
+  </li>
+  <li>
+    <p><a href="https://opensource.com/users/glasnt">… more articles</a></p>
+  </li>
+</ul>
+
+<h1 id="technical-reviewer">Technical Reviewer</h1>
+
+<ul>
+  <li>
+    <p><a href="fossforge.com">Forge Your Future with Open Source</a>, VM (Vicky) Brasseur, The Pragmatic Bookshelf</p>
+  </li>
+  <li>
+    <p><a href="https://hellowebbooks.com/learn-command-line/">Really Friendly Command Line Intro</a>, Tracy Osborn</p>
+  </li>
+  <li>
+    <p><a href="https://www.packtpub.com/application-development/oracle-application-express-32-essentials-and-more">Oracle Application Express 3.2 - The Essentials and More</a>, Arie Geller, Matthew Lyon, Packt Publishing</p>
+  </li>
+</ul>
+
+<p>More writing available on <a href="https://glasnt.com/blog">musings</a>. 
+<a href="https://unsplash.com/photos/vZJdYl5JVXY">Header image</a> via <a href="https://unsplash.com">unsplash.com</a></p>
+
+		</div>
+	</div>
+</div>
+
+<hr>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-8 text-center">
+      <span style="font-size: 2em; color: #4c4c4c">
+        <a href="/feed.xml"><i class="fas fa-rss-square"></i></a>
+        <a href="https://twitter.com/glasnt"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://instagram.com/glasnt"><i class="fab fa-instagram-square"></i></a>
+        <a href="https://github.com/glasnt"><i class="fab fa-github-square"></i></a>
+        </span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/assets/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/assets/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/assets/js/clean-blog.min.js "></script>
+
+
 </body>
+
+</html>
