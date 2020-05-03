@@ -21,7 +21,7 @@ li p {
 
 {% endfor %}
 
-# Technical Reviewer
+### Technical Reviewer
 {% for c in site.data.reviews %} 
  * [{{c.name}}]({{c.link}}), {{c.author}}{% if c.publisher %}, {{c.publisher }}{% endif %}
 {% endfor %}
