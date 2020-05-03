@@ -44,6 +44,10 @@
     name: dev.to
     link: https://dev.to/
     articles: 
+     - name: Migrating a Cloud Run deployment from shell to Terraform
+       link: https://dev.to/googlecloud/migrating-a-shell-script-deployed-cloud-run-service-to-use-terraform-3ako
+     - name: "Giving --format to your gcloud output"
+       link: https://dev.to/googlecloud/giving-format-to-your-gcloud-output-57gm
      - name: 'Help! I forgot to click "Allow unauthenticated invocations" on Google Cloud Run! 😱'
        link: https://dev.to/googlecloud/help-i-forgot-to-click-allow-unauthenticated-invocations-on-google-cloud-run-2hoj
        date: 01-JUL-2019
@@ -55,6 +59,10 @@
     name: OpenSource.com
     link: https://opensource.com/
     articles: 
+      - name: "Switching from Python 2 to Python 3: What you need to know"
+        link: https://opensource.com/article/19/11/end-of-life-python-2
+
+
       - name: An introduction to the Django ORM
         link: https://opensource.com/article/17/11/django-orm
         date: 01-NOV-2017
@@ -66,10 +74,6 @@
       - name: Solving the cross-platform emoji problem 
         link: https://opensource.com/article/17/4/cross-platform-emoji
         
-
-      - name: A tool for tracking non-code GitHub contributions
-        link: https://opensource.com/life/15/10/octohat-github-non-code-contribution-tracker
-
       - name: "... more articles"
         link: https://opensource.com/users/glasnt
 
