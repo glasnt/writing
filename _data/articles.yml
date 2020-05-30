@@ -44,13 +44,12 @@
     name: dev.to
     link: https://dev.to/
     articles: 
+     - name: Advice on specifying more granular permissions with Google Cloud IAM 
+       link: https://dev.to/googlecloud/advice-on-specifying-more-granular-permissions-with-google-cloud-iam-4b70
      - name: Migrating a Cloud Run deployment from shell to Terraform
        link: https://dev.to/googlecloud/migrating-a-shell-script-deployed-cloud-run-service-to-use-terraform-3ako
      - name: "Giving --format to your gcloud output"
        link: https://dev.to/googlecloud/giving-format-to-your-gcloud-output-57gm
-     - name: 'Help! I forgot to click "Allow unauthenticated invocations" on Google Cloud Run! 😱'
-       link: https://dev.to/googlecloud/help-i-forgot-to-click-allow-unauthenticated-invocations-on-google-cloud-run-2hoj
-       date: 01-JUL-2019
      - name: "... more articles"
        link: https://dev.to/glasnt
 
