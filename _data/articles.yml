@@ -8,8 +8,6 @@
         link: https://glasnt.com/blog/2018/02/08/on-unapologetic-enthusiasm.html
       - name: On Collecting No's
         link: http://glasnt.com/blog/2017/04/11/on-collecting-nos.html
-      - name: Hacking the LCA Lanyard
-        link: https://glasnt.com/blog/2016/02/07/hacking-the-lca-lanyard.html
     
 - publisher: 
     name: Increment Magazine
@@ -58,21 +56,14 @@
     name: OpenSource.com
     link: https://opensource.com/
     articles: 
+
+      - name: "4 Mac terminal customizations even a curmudgeon can love"
+        link: https://opensource.com/article/20/7/mac-terminal
+      - name: "My favorite Bash hacks"
+        link: https://opensource.com/article/20/1/bash-scripts-aliases
       - name: "Switching from Python 2 to Python 3: What you need to know"
         link: https://opensource.com/article/19/11/end-of-life-python-2
 
-
-      - name: An introduction to the Django ORM
-        link: https://opensource.com/article/17/11/django-orm
-        date: 01-NOV-2017
-
-      - name: Cross-platform development with Python and BeeWare
-        link: https://opensource.com/article/17/4/cross-platform-development-python-and-beeware
-        date: 01-APR-2017
-
-      - name: Solving the cross-platform emoji problem 
-        link: https://opensource.com/article/17/4/cross-platform-emoji
-        
       - name: "... more articles"
         link: https://opensource.com/users/glasnt
 
