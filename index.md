@@ -19,7 +19,11 @@ li p {
 {% for article in c.publisher.articles %} 
 * [{{article.name}}]({{article.link}})
 {% endfor %}
+{% endfor %}
 
+### Contributor
+{% for c in site.data.contributor %} 
+ * [{{c.name}}]({{c.link}}), {{c.author}}{% if c.publisher %}, {{c.publisher }}{% endif %}
 {% endfor %}
 
 ### Technical Reviewer
