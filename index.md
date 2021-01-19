@@ -17,13 +17,8 @@ li p {
 ### {{c.publisher.name}}
 {% endif %}
 {% for article in c.publisher.articles %} 
-* [{{article.name}}]({{article.link}})
+* {% if article.pre%}{{article.pre|safe}}{%endif%} [{{article.name}}]({{article.link}}) {% if article.post%}{{article.post|safe}}{% endif %}
 {% endfor %}
-{% endfor %}
-
-### Contributor
-{% for c in site.data.contributor %} 
- * [{{c.name}}]({{c.link}}), {{c.author}}{% if c.publisher %}, {{c.publisher }}{% endif %}
 {% endfor %}
 
 ### Technical Reviewer
