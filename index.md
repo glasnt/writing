@@ -26,5 +26,11 @@ li p {
  * [{{c.name}}]({{c.link}}), {{c.author}}{% if c.publisher %}, {{c.publisher }}{% endif %}
 {% endfor %}
 
+### Interviews
+{% for c in site.data.interviews %} 
+ * [{{c.name}}]({{c.link}}){% if c.publisher %}, {{c.publisher }}{% endif %}
+{% endfor %}
+
+
 More writing available on <a href="https://glasnt.com/blog">musings</a>. 
 [Header image](https://unsplash.com/photos/vZJdYl5JVXY) via [unsplash.com](https://unsplash.com)
