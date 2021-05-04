@@ -28,6 +28,14 @@
         link: https://bookshop.org/books/97-things-every-cloud-engineer-should-know-collective-wisdom-from-the-experts/9781492076735
 
 - publisher: 
+    name: arxiv
+    link: arxiv.org
+    articles: 
+      - name: "Which contributions count? Analysis of attribution in open source"
+        link: https://arxiv.org/abs/2103.11007
+        pre: "arXiv:2103.11007 [cs.SE]"
+
+- publisher: 
     name: Increment Magazine
     link: https://increment.com/
     articles: 
