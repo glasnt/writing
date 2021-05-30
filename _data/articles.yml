@@ -8,7 +8,33 @@
         link: https://glasnt.com/blog/2018/02/08/on-unapologetic-enthusiasm.html
       - name: On Collecting No's
         link: http://glasnt.com/blog/2017/04/11/on-collecting-nos.html
-    
+
+- publisher: 
+    name: Nature Computational Science
+    link: https://www.nature.com/natcomputsci
+    articles: 
+      - name: Open source ecosystems need equitable credit across contributions
+        pre:  Casari, A., McLaughlin, K., Trujillo, M.Z. et al.
+        link: https://www.nature.com/articles/s43588-020-00011-w
+        post: "*Nat Comput Sci* **1**, 2 (2021). [https://doi.org/10.1038/s43588-020-00011-w](https://doi.org/10.1038/s43588-020-00011-w)"
+
+- publisher: 
+    name: O'Reilly
+    link: https://www.oreilly.com/
+    articles: 
+      - pre: Emily Freeman, Nathen Harvey
+        name: "97 Things Every Cloud Engineer Should Know: Collective Wisdom from the Experts"
+        post: (Contributor)
+        link: https://bookshop.org/books/97-things-every-cloud-engineer-should-know-collective-wisdom-from-the-experts/9781492076735
+
+- publisher: 
+    name: arxiv
+    link: arxiv.org
+    articles: 
+      - name: "Which contributions count? Analysis of attribution in open source"
+        link: https://arxiv.org/abs/2103.11007
+        pre: "arXiv:2103.11007 [cs.SE]"
+
 - publisher: 
     name: Increment Magazine
     link: https://increment.com/
