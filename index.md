@@ -1,8 +1,7 @@
 ---
 layout: page 
-header-img: ../img/header_image.jpg
-description: in which glasnt types the words
 ---
+
 
 <style>
 li p { 
@@ -10,12 +9,11 @@ li p {
 }
 </style>
 
+
 {% for c in site.data.articles %} 
-{% if c.publisher.link %}
-### [{{c.publisher.name}}]({{c.publisher.link}})
-{% else %}
-### {{c.publisher.name}}
-{% endif %}
+
+### {{c.publisher.name}} {% if c.publisher.link %}<small>[↗]({{c.publisher.link}})</small>{%endif%}
+
 {% for article in c.publisher.articles %} 
 * [{{article.name}}]({{article.link}})
 {% endfor %}

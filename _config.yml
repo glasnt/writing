@@ -1,3 +1,36 @@
-remote_theme: glasnt/myrtle@latest
-base_url: writing/
-google_analytics: G-YKTBSHW2TW
+remote_theme: glasnt/myrtle@thinkspace
+repository: glasnt/writing
+
+description       : "in which glasnt types the words"     
+baseurl           : "/writing"
+
+title_left         : "glasnt.com"
+url                : "https://glasnt.com"
+cover              : "" # image uri like logo/cover image for site seo
+google_analytics   : G-265B4NHGG0
+twitter_username   : "glasnt"     
+postshare_enabled  : true
+
+permalink          : /:title/
+markdown           : kramdown
+highlighter        : rouge
+
+# special settings for blog
+media: /blog/assets/media
+cardfolder: /assets/cards
+
+navbar:
+  - slug : /
+    title: home
+  - slug : /blog/about/
+    title: about
+  - slug: /talks/
+    title: talks
+  - slug: /writing/
+    title: writing
+  - slug: /blog/
+    title: blog
+  - slug: /now/
+    title: now
+  - slug: /blog/archive/
+    title: archive
