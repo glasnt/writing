@@ -1,7 +1,7 @@
-- publisher: 
+- publisher:
     name: self published
-    
-    articles: 
+    link: https://glasnt.com/blog
+    articles:
       - name: On the 'other' developers
         link: https://glasnt.com/blog/2018/04/06/on-the-other-developers.html
       - name: On unapologetic enthusiasm
@@ -9,80 +9,65 @@
       - name: On Collecting No's
         link: http://glasnt.com/blog/2017/04/11/on-collecting-nos.html
 
-- publisher: 
-    name: Nature Computational Science
-    link: https://www.nature.com/natcomputsci
-    articles: 
-      - name: Open source ecosystems need equitable credit across contributions
-        pre:  Casari, A., McLaughlin, K., Trujillo, M.Z. et al.
-        link: https://www.nature.com/articles/s43588-020-00011-w
-        post: "*Nat Comput Sci* **1**, 2 (2021). [https://doi.org/10.1038/s43588-020-00011-w](https://doi.org/10.1038/s43588-020-00011-w)"
 
-- publisher: 
+- publisher:
     name: O'Reilly
     link: https://www.oreilly.com/
-    articles: 
+    articles:
       - pre: Emily Freeman, Nathen Harvey
         name: "97 Things Every Cloud Engineer Should Know: Collective Wisdom from the Experts"
         post: (Contributor)
         link: https://bookshop.org/books/97-things-every-cloud-engineer-should-know-collective-wisdom-from-the-experts/9781492076735
 
-- publisher: 
-    name: arxiv
-    link: arxiv.org
-    articles: 
+- publisher:
+    name: Google Research
+    link: https://research.google/people/108514/
+    articles:
+      - name: Invisible Labor in Open Source ecosystems
+        link: https://arxiv.org/abs/2401.06889
+        post:	ACM Conference on Computer-Supported Cooperative Work and Social Computing, 2025
       - name: "Which contributions count? Analysis of attribution in open source"
         link: https://arxiv.org/abs/2103.11007
-        pre: "arXiv:2103.11007 [cs.SE]"
+        post:  Mining Software Repositories Conference, 2021
+      - name: Open source ecosystems need equitable credit across contributions
+        link: https://www.nature.com/articles/s43588-020-00011-w
+        post: Nature Computational Science, 2021
 
-- publisher: 
-    name: Increment Magazine
-    link: https://increment.com/
-    articles: 
-      - name: The wonderful world of emoji ✨
-        link: https://increment.com/internationalization/the-wonderful-world-of-emoji/   
-
-- publisher:
-    name: Nexmo Developer Spotlight
-    link: https://www.nexmo.com/blog/category/developer/developer-spotlight/
-    articles: 
-     - name: Solving Kelly’s Dilemma – How to Send SMS from a Spreadsheet
-       link: https://www.nexmo.com/blog/2019/01/23/how-to-send-sms-from-a-spreadsheet-dr/
 
 - publisher:
     name: The Recompiler
     link: https://recompilermag.com/
-    articles: 
+    articles:
       - name: Why I love Legacy DevOps
         link: https://recompilermag.com/issues/issue-4/why-i-love-legacy-devops/
 
-- publisher: 
+
+- publisher:
+    name: Increment Magazine
+    link: https://increment.com/
+    articles:
+      - name: The wonderful world of emoji ✨
+        link: https://increment.com/internationalization/the-wonderful-world-of-emoji/
+
+- publisher:
     name: Model View Culture
     link: https://modelviewculture.com/
-    articles: 
-      - name: Acknowledging Non-Coding Contributions 
+    articles:
+      - name: Acknowledging Non-Coding Contributions
         link: https://modelviewculture.com/pieces/acknowledging-non-coding-contributions
         date: 1-Feb-2016
 
 - publisher:
-    name: dev.to
-    link: https://dev.to/
-    articles: 
-     - name: Advice on specifying more granular permissions with Google Cloud IAM 
-       link: https://dev.to/googlecloud/advice-on-specifying-more-granular-permissions-with-google-cloud-iam-4b70
-     - name: Migrating a Cloud Run deployment from shell to Terraform
-       link: https://dev.to/googlecloud/migrating-a-shell-script-deployed-cloud-run-service-to-use-terraform-3ako
-     - name: "Giving --format to your gcloud output"
-       link: https://dev.to/googlecloud/giving-format-to-your-gcloud-output-57gm
-     - name: "... more articles"
-       link: https://dev.to/glasnt
-
+    name: Nexmo Developer Spotlight
+    link: https://www.nexmo.com/blog/category/developer/developer-spotlight/
+    articles:
+     - name: Solving Kelly’s Dilemma – How to Send SMS from a Spreadsheet
+       link: https://www.nexmo.com/blog/2019/01/23/how-to-send-sms-from-a-spreadsheet-dr/
 
 - publisher:
     name: OpenSource.com
     link: https://opensource.com/
-    articles: 
-
+    articles:
       - name: "4 Mac terminal customizations even a curmudgeon can love"
         link: https://opensource.com/article/20/7/mac-terminal
       - name: "My favorite Bash hacks"
@@ -92,4 +77,18 @@
 
       - name: "... more articles"
         link: https://opensource.com/users/glasnt
+
+
+- publisher:
+    name: dev.to
+    link: https://dev.to/
+    articles:
+     - name: Advice on specifying more granular permissions with Google Cloud IAM
+       link: https://dev.to/googlecloud/advice-on-specifying-more-granular-permissions-with-google-cloud-iam-4b70
+     - name: Migrating a Cloud Run deployment from shell to Terraform
+       link: https://dev.to/googlecloud/migrating-a-shell-script-deployed-cloud-run-service-to-use-terraform-3ako
+     - name: "Giving --format to your gcloud output"
+       link: https://dev.to/googlecloud/giving-format-to-your-gcloud-output-57gm
+     - name: "... more articles"
+       link: https://dev.to/glasnt
 

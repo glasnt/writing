@@ -1,8 +1,13 @@
+- name: Progressive Delivery
+  link: https://itrevolution.com/product/progressive-delivery/
+  author: James Governor, Kim Harrison, Heidi Waterhouse, Adam Zimman
+  publisher: IT Revolution
+
 - name: Forge Your Future with Open Source
   link: fossforge.com
   author: VM (Vicky) Brasseur
   publisher: The Pragmatic Bookshelf
-  
+
 - name: Really Friendly Command Line Intro
   link: https://hellowebbooks.com/learn-command-line/
   author: Tracy Osborn
